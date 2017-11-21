@@ -1,0 +1,10 @@
+<%= form_for(@task) do |f| %>
+  <%= f.label :name, "Task's name: " %>
+  <%= f.text_field :name %>
+
+  <%= f.label :description, "Task's description: " %>
+  <%= f.text_field :description %>
+
+  <%= f.submit %>
+<% end %>
+
